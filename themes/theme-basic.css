@@ -1,0 +1,48 @@
+
+/* theme-basic is to make the unchangable attributes */
+/* Please put this AT THE LATEST place when linking.*/
+
+#bg{
+  background-color: #6CF;
+}
+
+#schbox{
+  border-spacing: 2px;
+}
+
+.e-selected-off, .e-selected-on{
+  cursor: pointer;
+}
+
+.bg, .bg_{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg{
+  /*background: url('https://s0.xinger.ink/fj/fjurl.php');*/
+  background: url('https://s0.xinger.ink/acgimg/acgurl.php');
+}
+
+.theme-selected-on{
+  background: #5BE;
+  color: #EEE;
+  border-color: #5BE;
+}
+
+.theme-selected-off{
+  transition: color 0.18s;
+}
+
+.theme-selected-off:hover{
+  color: #9EF;
+}
+
+@keyframes theme-wake-up-color {
+  from{
+    color: #9EF;
+  }
+  to{
+    color: #EEE;
+  }
+}
