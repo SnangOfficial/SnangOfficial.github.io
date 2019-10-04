@@ -5,31 +5,6 @@
   color: white;
 }
 
-#schbox{
-  background-color: rgba(255, 255, 255, 0.7);
-  color: black;
-  font-size: 15px;
-  border-left: 2px rgba(255, 0, 0, 0.2) solid;
-  border-top: 2px rgba(0, 0, 0, 0.2) solid;
-  border-right: 2px rgba(0, 0, 0, 0.2) solid;
-  border-bottom: 2px rgba(255, 0, 0, 0.2) solid;
-}
-
-#schbox:hover{
-  background-color: rgba(255, 255, 255, 0.9);
-}
-
-#sch-go{
-  color: #48D;
-  font-weight: bold;
-  background-color: rgba(255, 255, 255, 0.7);
-  border: 1px #999 solid;
-}
-
-#sch-go:hover{
-  background-color: rgba(255, 255, 255, 0.9);
-}
-
 #link-show{
   font-weight: bold;
   color: white;
@@ -41,10 +16,25 @@
 }
 
 .e-selected-on{
-  color: red;
+  color: pink;
   text-shadow: 0px 0px 13px red;
 }
 
 .e-selected-off{
   text-shadow: 0px 0px 13px #DDD;
+}
+
+.theme-selected-on{
+  background: #E90;
+  color: #EEE;
+  border-color: #E90;
+}
+
+@keyframes theme-wake-up-background {
+  from{
+    background: none;
+  }
+  to{
+    background: #E90
+  }
 }

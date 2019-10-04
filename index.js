@@ -33,14 +33,16 @@ function schboxKeydown(){
   }
 }
 
+function getTargetLink(altrnatingText){
+  if (altrnatingText == '')
+    return searchnan[engine];
+  else
+    return searchto[engine].replace('%s', altrnatingText);
+}
+
 function search(){
   var schbox = document.getElementById('schbox');
-  var url;
-  if (schbox.value == '')
-    url = searchnan[engine];
-  else
-    url = searchto[engine].replace('%s', schbox.value);
-  // console.log('Goto ' + url);
+  var url = getTargetLink(schbox.value);
   window.open(url);
 }
 

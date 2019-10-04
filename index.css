@@ -56,8 +56,9 @@ body{
   border-radius: 7px;
 }
 
-#link-show:{
+#link-show{
   width: 5%;
+  transition: color 0.12s;
 }
 
 #link-show:hover{
@@ -81,7 +82,7 @@ body{
 
 .theme-selected-on{
   border-radius: 4px;
-  animation: theme-wake-up 0.4s, theme-wake-up-color 0.2s;
+  animation: theme-wake-up 0.36s, theme-wake-up-color 0.2s, theme-wake-up-background 0.2s;
 }
 
 .theme-selected-off, .theme-selected-on{

@@ -1,8 +1,8 @@
 
-var themeList = {'dark' : 'theme-dark.css', 'light' : 'theme-light.css'};
+var themeList = {'dark' : 'theme-dark.css',
+                'light' : 'theme-light.css',
+                'board' : "theme-board.css"};
 var themeUsing = 'light', themeDiv;
-
-setThemeClickEvent();
 
 function addThemesEvent(div){
   themeDiv = div;
