@@ -7,14 +7,14 @@ var searchto = {'google' : 'https://www.google.com/search?q=%s&oq=%s&ie=UTF-8',
                 'bilibili' : 'https://search.bilibili.com/all?keyword=%s&from_source=banner_search',
                 'csdn' : 'https://so.csdn.net/so/search/s.do?q=%s',
                 'luogu' : 'https://www.luogu.org/problem/list?keyword=%s',
-                'github' : 'https://https://github.com/search?q=%s'};
+                'github' : 'https://github.com/search?q=%s'};
 var searchnan = {'google' : 'https://www.google.com/',
                  'baidu' : 'https://www.baidu.com/',
                  'mengniang' : 'https://zh.moegirl.org/Mainpage',
                  'bilibili' : 'https://www.bilibili.com',
                  'csdn' : 'https://www.csdn.net/',
                  'luogu' : 'https://www.luogu.org',
-                 'github' : 'https://https://github.com/'};
+                 'github' : 'https://github.com/'};
 
 function chs(c){
   document.getElementById(engine).className = 'e-selected-off';
