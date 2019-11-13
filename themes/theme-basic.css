@@ -23,6 +23,7 @@
 
 #e-l-btn, #e-left, #e-middle, #e-right, #e-r-btn{
 	transition: color 0.14s;
+	cursor: pointer;
 }
 
 #sch-go{
