@@ -1,31 +1,21 @@
 
 /* theme-dark.css is a kind of theme in dark♂. */
 
-#link-show{
-  font-weight: bold;
-  color: #EEE;
-  background-color: rgba(32, 32, 32, 0.5);
-  text-shadow: 0px 0px 1px #222;
-  transition: text-shadow 0.14s, background-color 0.12s;
+#e-l-btn, #e-left, #e-right, #e-r-btn{
+	color: #DDD;
 }
 
-#link-show:hover{
-  font-weight: bold;
-  color: #DDD;
-  text-shadow: 0px 0px 4px #111;
-  background-color: rgba(32, 32, 32, 0.7);
+#e-middle{
+	color: white;
 }
 
-.e-selected-on{
-  color: black;
-  text-shadow: 0px 0px 13px blue;
-  background-color: rgba(233, 233, 233, 0.7);
+#e-middle:hover{
+	background-color: rgba(16, 16, 16, 0.9);
 }
 
-.e-selected-off{
-  color: white;
-  text-shadow: 0px 0px 13px #333;
-  background-color: rgba(23, 23, 23, 0.7);
+#e-l-btn, #e-left, #e-right, #e-r-btn, #e-middle{
+	background-color: rgba(16, 16, 16, 0.7);
+	transition: background-color 0.2s;
 }
 
 .theme-selected-on{

@@ -1,24 +1,16 @@
 
 /* theme-dark.css is a kind of theme in dark♂. */
-
-#link-show{
-  font-weight: bold;
-  color: black;
+#e-l-btn, #e-left, #e-right, #e-r-btn{
+	color: #333;
 }
 
-#link-show:hover{
-  font-weight: bold;
-  color: green;
+#e-middle{
+	color: #000;
+	transition: text-shadow 0.14s;
 }
 
-.e-selected-on{
-  color: blue;
-  text-shadow: 0px 0px 13px blue;
-}
-
-.e-selected-off{
-  color: black;
-  text-shadow: 0px 0px 13px #333;
+#e-middle:hover{
+	text-shadow: grey 0px 0px 2px;
 }
 
 .theme-selected-on{
