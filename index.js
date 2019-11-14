@@ -61,10 +61,16 @@ function schboxKeydown(){
     var key = window.event.keyCode;
     if (key == 13 || key == 10)
       search();
-    if (key == 38)
+    else if (key == 38)
 	  lbtn_click();
-	if (key == 40)
+	else if (key == 40)
 	  rbtn_click();
+	else if (document.getElementById('schbox').value == ''){
+	  if (key == 37)
+	    lbtn_click();
+	  else if (key == 39)
+		rbtn_click();
+	}
   }
 }
 
