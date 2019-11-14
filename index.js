@@ -15,7 +15,7 @@ var searchnan = {'google' : 'https://www.google.com/',
 var cnname = {'google' : '谷歌',
                  'baidu' : '百度',
                  'mengniang' : '萌娘',
-                 'bilibili' : '哔站',
+                 'bilibili' : 'B站',
                  'luogu' : '洛谷'};
 var eorder = {1 : 'google',
                 2 : 'baidu',
@@ -23,6 +23,7 @@ var eorder = {1 : 'google',
                 4 : 'bilibili',
                 5 : 'mengniang'};
 
+// 获取相邻的搜索引擎的下标
 function getNearbyEngine(i){
   if (engine + i <= 0)
     return eAmo;
@@ -60,6 +61,10 @@ function schboxKeydown(){
     var key = window.event.keyCode;
     if (key == 13 || key == 10)
       search();
+    if (key == 38)
+	  lbtn_click();
+	if (key == 40)
+	  rbtn_click();
   }
 }
 

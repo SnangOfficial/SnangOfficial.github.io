@@ -47,6 +47,11 @@ html, body{
 
 #e-left, #e-right{
 	font-size: 21px;
+	transition: font-size 0.4s;
+}
+
+#e-left:hover, #e-right:hover{
+	font-size: 25px;
 }
 
 #e-middle{
