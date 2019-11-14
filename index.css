@@ -79,6 +79,11 @@ html, body{
   margin: auto 30px auto 30px;
 }
 
+#clean{
+  position: relative;
+  top: +3px;
+}
+
 /***************************************/
 
 .not-select{

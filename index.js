@@ -24,34 +24,34 @@ var eorder = {1 : 'google',
                 5 : 'mengniang'};
 
 function getNearbyEngine(i){
-	if (engine + i <= 0)
-		return eAmo;
-	else if (engine + i > eAmo)
-		return 1;
-	else
-		return engine + i;
+  if (engine + i <= 0)
+    return eAmo;
+  else if (engine + i > eAmo)
+    return 1;
+  else
+    return engine + i;
 }
 
 // The left button of the choice of engine.
 // 引擎选择的左按钮
 function lbtn_click(){
-	if (--engine <= 0)
-		engine = eAmo;
-	var le = eorder[getNearbyEngine(-1)], mid = eorder[getNearbyEngine(0)], ri = eorder[getNearbyEngine(1)];
-	document.getElementById('e-left').innerHTML = cnname[le];
-	document.getElementById('e-middle').innerHTML = cnname[mid];
-	document.getElementById('e-right').innerHTML = cnname[ri];
+  if (--engine <= 0)
+    engine = eAmo;
+  var le = eorder[getNearbyEngine(-1)], mid = eorder[getNearbyEngine(0)], ri = eorder[getNearbyEngine(1)];
+  document.getElementById('e-left').innerHTML = cnname[le];
+  document.getElementById('e-middle').innerHTML = cnname[mid];
+  document.getElementById('e-right').innerHTML = cnname[ri];
 }
 
 // The right button of the choice of engine.
 // 引擎选择的右按钮
 function rbtn_click(){
-	if (++engine > eAmo)
-		engine = 1;
-	var le = eorder[getNearbyEngine(-1)], mid = eorder[getNearbyEngine(0)], ri = eorder[getNearbyEngine(1)];
-	document.getElementById('e-left').innerHTML = cnname[le];
-	document.getElementById('e-middle').innerHTML = cnname[mid];
-	document.getElementById('e-right').innerHTML = cnname[ri];
+  if (++engine > eAmo)
+    engine = 1;
+  var le = eorder[getNearbyEngine(-1)], mid = eorder[getNearbyEngine(0)], ri = eorder[getNearbyEngine(1)];
+  document.getElementById('e-left').innerHTML = cnname[le];
+  document.getElementById('e-middle').innerHTML = cnname[mid];
+  document.getElementById('e-right').innerHTML = cnname[ri];
 }
 
 // check what keys the user press down.
@@ -79,5 +79,11 @@ function search(){
 }
 
 function e_middle_click(){
-	window.open(searchnan[eorder[engine]]);
+  window.open(searchnan[eorder[engine]]);
+}
+
+function clean(){
+  var schbox = document.getElementById('schbox');
+  schbox.value = "";
+  schbox.focus();
 }
