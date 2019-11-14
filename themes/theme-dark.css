@@ -1,7 +1,11 @@
 
 /* theme-dark.css is a kind of theme in dark♂. */
-#e-l-btn, #e-left, #e-right, #e-r-btn{
+#e-left, #e-right{
 	color: #333;
+}
+
+#e-left:active, #e-right:active{
+	color: #222;
 }
 
 #e-middle{

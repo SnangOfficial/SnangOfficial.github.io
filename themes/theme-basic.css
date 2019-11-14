@@ -21,7 +21,7 @@
   background-color: rgba(255, 255, 255, 1);
 }
 
-#e-l-btn, #e-left, #e-middle, #e-right, #e-r-btn{
+#e-left, #e-middle, #e-right{
 	transition: color 0.14s;
 	cursor: pointer;
 }
@@ -34,16 +34,20 @@
 }
 
 #sch-go:hover{
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.87);
+}
+
+#sch-go:active{
+  background-color: rgba(231, 231, 231, 0.9);
 }
 
 #clean{
-  opacity: 0.7;
+  opacity: 1.0;
   transition: opacity 0.24s;
 }
 
 #clean:hover{
-  opacity: 1.0;
+  opacity: 0.64;
 }
 
 .bg, .bg_{

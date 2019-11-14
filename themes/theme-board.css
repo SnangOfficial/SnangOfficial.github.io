@@ -1,8 +1,12 @@
 
 /* theme-dark.css is a kind of theme in dark♂. */
 
-#e-l-btn, #e-left, #e-right, #e-r-btn{
+#e-left, #e-right{
 	color: #DDD;
+}
+
+#e-left:active, #e-right:active{
+	color: #CCC;
 }
 
 #e-middle{
@@ -13,7 +17,7 @@
 	background-color: rgba(16, 16, 16, 0.9);
 }
 
-#e-l-btn, #e-left, #e-right, #e-r-btn, #e-middle{
+#e-left, #e-right, #e-middle{
 	background-color: rgba(16, 16, 16, 0.7);
 	transition: background-color 0.2s;
 }

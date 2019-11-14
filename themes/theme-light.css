@@ -1,8 +1,12 @@
 
 /* theme-dark.css is a kind of theme in light. */
 
-#e-l-btn, #e-left, #e-right, #e-r-btn{
+#e-left, #e-right{
 	color: white;
+}
+
+#e-left:active, #e-right:active{
+	color: #E7E7E7;
 }
 
 #e-middle{
