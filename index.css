@@ -77,17 +77,13 @@ html, body{
 #sch-go{
   padding: 13px;
   font-size: 16px;
+  outline: medium;
   border-radius: 7px;
 }
 
 #theme{
   width: 100%;
   margin: auto 30px auto 30px;
-}
-
-#clean{
-  position: relative;
-  top: +3px;
 }
 
 /***************************************/
@@ -109,6 +105,11 @@ html, body{
   margin: 7px;
   cursor: pointer;
   border-width: 3px;
+}
+
+.little-move{
+  position: relative;
+  top: +3px;
 }
 
 @keyframes theme-wake-up {
