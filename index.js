@@ -7,16 +7,16 @@ var searchto = {'google' : 'https://www.google.com/search?q=%s&oq=%s&ie=UTF-8',
                 'baidu' : 'https://www.baidu.com/s?wd=%s',
                 'mengniang' : 'https://zh.moegirl.org/index.php?search=%s',
                 'bilibili' : 'https://search.bilibili.com/all?keyword=%s&from_source=banner_search',
-                'luogu' : 'https://www.luogu.org/problem/list?keyword=%s',
                 'bing' : 'https://cn.bing.com/search?q=%s',
-	            'google_translate' : 'https://translate.google.cn/#view=home&op=translate&sl=auto&tl=en&text=%s'};
+	            'google_translate' : 'https://translate.google.cn/#view=home&op=translate&sl=auto&tl=zh-CN&text=%s',
+                'luogu' : 'https://www.luogu.org/problem/list?keyword=%s'};
 var searchnan = {'google' : 'https://www.google.com/',
                  'baidu' : 'https://www.baidu.com/',
                  'mengniang' : 'https://zh.moegirl.org/Mainpage',
                  'bilibili' : 'https://www.bilibili.com',
-                 'luogu' : 'https://www.luogu.org',
                  'bing' : 'https://cn.bing.com/',
-                 'google_translate' : 'https://translate.google.cn/'};
+                 'google_translate' : 'https://translate.google.cn/',
+                 'luogu' : 'https://www.luogu.org'};
 var cnname = {'google' : '谷歌',
                  'baidu' : '百度',
                  'mengniang' : '萌娘',
