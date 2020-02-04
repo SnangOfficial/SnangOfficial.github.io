@@ -1,0 +1,37 @@
+
+/* theme-dark.css is a kind of theme in light. */
+
+#e-left, #e-right{
+  color: white;
+}
+
+#e-left:active, #e-right:active{
+  color: #E7E7E7;
+}
+
+#e-middle{
+  color: #E90;
+}
+
+#e-middle:hover{
+  color: orange;
+}
+
+#e-middle:active{
+  color: #D83;
+}
+
+.theme-selected-on{
+  background: #E90;
+  color: #EEE;
+  border-color: #E90;
+}
+
+@keyframes theme-wake-up-background {
+  from{
+    background: none;
+  }
+  to{
+    background: #E90
+  }
+}

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-  <!--技术原因，现在还是静态页面-->
   <head>
     <meta charset="utf-8">
     <title>夜夜吔业页 - 简约主页</title>
@@ -15,31 +14,34 @@
     </div>
     <div id="bg" class="bg"></div>
     <div id="contain">
+	  <!--时间-->
+	  <div id="time-show">
+		<div id="time">
+		</div>
+		<div id="date">
+		</div>
+	  </div>
       <!--搜索框-->
       <div id="search" class="not-select">
         <div id="e-pos">
-          <div id="e-chs" align="center">
-            <span class="e-btn"><span id="google" class="e-selected-off" onclick="chs(this);">谷歌</span></span>
-            <span class="e-btn"><span id="baidu" class="e-selected-on" onclick="chs(this);">百度</span></span>
-            <span class="e-btn"><span id="mengniang" class="e-selected-off" onclick="chs(this);">萌娘</span></span>
-            <span class="e-btn"><span id="bilibili" class="e-selected-off" onclick="chs(this);">b站</span></span>
-            <span class="e-btn"><span id="luogu" class="e-selected-off" onclick="chs(this);">洛谷</span></span>
-            <span class="e-btn"><span id="csdn" class="e-selected-off" onclick="chs(this);">csdn</span></span>
-            <span class="e-btn"><span id="github" class="e-selected-off" onclick="chs(this);">github</span></span>
+          <div id="e-chs">
+			<span id="e-left" onclick="lbtn_click();">谷歌</span>
+			<span id="e-middle" onclick="e_middle_click();">百度</span>
+			<span id="e-right" onclick="rbtn_click();">必应</span>
           </div>
           <div id="sch">
-            <span id="link-show" title="清除你的输入..." onclick="schboxClear();">百度<</span>
             <input type="text" placeholder="Input and search..." id="schbox" onkeydown="schboxKeydown();">
             <input type="button" id="sch-go" value="S" onclick="search();">
           </div>
           <div id="theme-chs" onload="addThemesEvent(this);">
             <span id="light" class="theme-selected-on" onclick="changeTheme(this);">light</span>
             <span id="dark" class="theme-selected-off" onclick="changeTheme(this);">dark</span>
+            <span id="orange" class="theme-selected-off" onclick="changeTheme(this);">orange</span>
             <span id="board" class="theme-selected-off" onclick="changeTheme(this);">board</span>
           </div>
+		  <span id="clean" class="theme-selected-on" onclick="clean();">clear</span>
         </div>
-        <!--<small id="sourceClaime">背景来源：<a href="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture" target="_blank">必应随机图片</a><!--，<a href="javascript:bgChange();">更换背景</a>--><!--</small>-->
-      </div>
+	  </div>
     </div>
   </body>
 </html>

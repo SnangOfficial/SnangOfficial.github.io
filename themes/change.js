@@ -1,6 +1,7 @@
 
 var themeList = {'dark' : 'theme-dark.css',
                 'light' : 'theme-light.css',
+				'orange' : 'theme-orange.css',
                 'board' : 'theme-board.css'};
 var themeUsing = 'light', themeDiv;
 

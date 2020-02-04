@@ -1,6 +1,6 @@
 
 /* theme-basic is to make the unchangable attributes */
-/* Please put this AT THE LATEST place when linking.*/
+/* Please put this AT LATEST IN THE ORDER when linking.*/
 
 #bg{
   background-color: #6CF;
@@ -14,25 +14,44 @@
   border-top: 2px rgba(0, 0, 0, 0.2) solid;
   border-right: 2px rgba(0, 0, 0, 0.2) solid;
   border-bottom: 2px rgba(255, 0, 0, 0.2) solid;
-    border-spacing: 2px;
+  border-spacing: 2px;
 }
 
 #schbox:hover{
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 1);
+}
+
+#e-left, #e-middle, #e-right{
+	transition: color 0.14s;
+	cursor: pointer;
 }
 
 #sch-go{
   color: #48D;
   font-weight: bold;
   background-color: rgba(255, 255, 255, 0.7);
-  border: 1px #999 solid;
+  border: 1px #99F solid;
 }
 
 #sch-go:hover{
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.87);
 }
-.e-selected-off, .e-selected-on{
-  cursor: pointer;
+
+#sch-go:active{
+  background-color: rgba(231, 231, 231, 0.9);
+}
+
+#clean{
+  opacity: 1.0;
+  transition: opacity 0.24s;
+}
+
+#clean:hover{
+  opacity: 0.82;
+}
+
+#clean:active{
+  opacity: 0.64;
 }
 
 .bg, .bg_{
@@ -42,19 +61,22 @@
 
 .bg{
   /*background: url('https://s0.xinger.ink/fj/fjurl.php');*/
-  background: url('https://s0.xinger.ink/acgimg/acgurl.php');
+  /*background: url('https://s0.xinger.ink/acgimg/acgurl.php');*/
   /*background: url('http://pic.tsmp4.net/api/fengjing/img.php');*/
+  background: url('https://api.dujin.org/bing/1920.php');
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .theme-selected-on{
   background: #5BE;
   color: #EEE;
   border-color: #5BE;
+  transition: background-color 0.6s;
 }
 
 .theme-selected-off{
-  transition: color 0.18s;
+  transition: color 0.18s, background-color 0.18s;
 }
 
 .theme-selected-off:hover{
