@@ -51,6 +51,7 @@ function lbtn_click(){
   document.getElementById('e-left').innerHTML = cnname[le];
   document.getElementById('e-middle').innerHTML = cnname[mid];
   document.getElementById('e-right').innerHTML = cnname[ri];
+  document.getElementById('schbox').focus();
 }
 
 // The right button of the choice of engine.
@@ -62,6 +63,7 @@ function rbtn_click(){
   document.getElementById('e-left').innerHTML = cnname[le];
   document.getElementById('e-middle').innerHTML = cnname[mid];
   document.getElementById('e-right').innerHTML = cnname[ri];
+  document.getElementById('schbox').focus();
 }
 
 // check what keys the user press down.

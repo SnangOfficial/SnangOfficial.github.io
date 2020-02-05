@@ -14,11 +14,11 @@
 }
 
 #e-middle:hover{
-  text-shadow: grey -1px -3px 5px;
+  text-shadow: grey -2px -4px 4px;
 }
 
 #e-middle:active{
-  text-shadow: grey 1px 3px 3px;
+  text-shadow: grey 2px 4px 5px;
 }
 
 .theme-selected-on{

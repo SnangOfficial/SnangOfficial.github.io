@@ -22,8 +22,8 @@
 }
 
 #e-left, #e-middle, #e-right{
-	transition: color 0.14s;
-	cursor: pointer;
+  transition: color 0.14s;
+ cursor: pointer;
 }
 
 #sch-go{
@@ -43,7 +43,7 @@
 
 #clean{
   opacity: 1.0;
-  transition: opacity 0.24s;
+  transition: opacity 0.12s;
 }
 
 #clean:hover{
@@ -90,4 +90,7 @@
   to{
     color: #EEE;
   }
+}
+
+@keyframes sch-HelloWorld {
 }

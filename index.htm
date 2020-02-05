@@ -9,18 +9,13 @@
     <script src="themes/change.js"></script>
   </head>
   <body>
+    <!--用于实现主题的切换-->
     <div id="themeCountainer">
       <link id="theme" href="./themes/theme-light.css" type="text/css" rel="stylesheet">
     </div>
+    <!--背景-->
     <div id="bg" class="bg"></div>
     <div id="contain">
-	  <!--时间-->
-	  <div id="time-show">
-		<div id="time">
-		</div>
-		<div id="date">
-		</div>
-	  </div>
       <!--搜索框-->
       <div id="search" class="not-select">
         <div id="e-pos">
@@ -42,6 +37,14 @@
 		  <span id="clean" class="theme-selected-on" onclick="clean();">clear</span>
         </div>
 	  </div>
+    </div>
+    <!--用于写各种链接，比如链接到github、邮件等 -->
+    <div style="link">
+      <img src=""></img>
+    </div>
+    <div style="display:none;">
+      哎呀，你发现了彩蛋！
+      Ohhhhhhhhhhh, U've found the easter egg!
     </div>
   </body>
 </html>
