@@ -1,7 +1,8 @@
-
+/* 主页面上的javascript文件 */
 console.log('Welcome to yeyeyeyeye.');
 console.log('Background source from: bing\'s everyday pirture.');
 console.log('加油武汉，加油中国！-座凳人于2020年2月4日22点44分');
+console.log('十分感谢Hitokoto提供【一言】的API支持！');
 var engine = 2, eAmo = 7;	// engine:当前使用的引擎的编号  eAmo：引擎数（待废除）
 var searchto = {'google' : 'https://www.google.com/search?q=%s&oq=%s&ie=UTF-8',
                 'baidu' : 'https://www.baidu.com/s?wd=%s',
@@ -27,8 +28,8 @@ var cnname = {'google' : '谷歌',
 var eorder = {1 : 'google',
                 2 : 'baidu',
                 3 : 'bing',
-                4 : 'luogu',
-                5 : 'bilibili',
+                4 : 'bilibili',
+                5 : 'luogu',
                 6 : 'mengniang',
                 7 : 'google_translate'};
 

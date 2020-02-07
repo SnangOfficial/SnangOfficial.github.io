@@ -1,3 +1,5 @@
+<!--“夜夜吔业页”作为一个网站被访问的支持：github-->
+<!--夜夜吔业页 是 御坂12018号(这是bilibili的用户名)独立开发完成的页面，在github上开源，严禁冒名-->
 <!DOCTYPE html>
 <html>
   <head>
@@ -20,9 +22,9 @@
       <div id="search" class="not-select">
         <div id="e-pos">
           <div id="e-chs">
-			<span id="e-left" onclick="lbtn_click();">谷歌</span>
-			<span id="e-middle" onclick="e_middle_click();">百度</span>
-			<span id="e-right" onclick="rbtn_click();">必应</span>
+            <span id="e-left" onclick="lbtn_click();">谷歌</span>
+            <span id="e-middle" onclick="e_middle_click();">百度</span>
+            <span id="e-right" onclick="rbtn_click();">必应</span>
           </div>
           <div id="sch">
             <input type="text" placeholder="Input and search..." id="schbox" onkeydown="schboxKeydown();">
@@ -34,13 +36,27 @@
             <span id="orange" class="theme-selected-off" onclick="changeTheme(this);">orange</span>
             <span id="board" class="theme-selected-off" onclick="changeTheme(this);">board</span>
           </div>
-		  <span id="clean" class="theme-selected-on" onclick="clean();">clear</span>
+          <div id="clean-box">
+            <span id="clean" class="theme-selected-on" onclick="clean();">clear</span>
+          </div>
         </div>
-	  </div>
-    </div>
-    <!--用于写各种链接，比如链接到github、邮件等 -->
-    <div style="link">
-      <img src=""></img>
+      </div>
+      <!--链接-->
+      <div id="link" class="not-select">
+        <a href="https://space.bilibili.com/22942209" title="直达开发者的B站空间" class="bottom-img-link" target="_blank"><img src="img/link/bilibili.jpg"></a>
+        <a href="https://github.com/SnangOfficial/SnangOfficial.github.io" title="本项目的github库" class="bottom-img-link" target="_blank"><img src="img/link/github.jpg"></a>
+		<a href="https://space.bilibili.com/3379951?from=search&seid=216130119485071040" title="强烈安利，ilem赛高！！！5毛一条，不删括号不给钱" class="bottom-img-link" target="_blank"><img src="https://i0.hdslb.com/bfs/face/2e25812e0ba75174c07fe9b61e68e20c66e89499.jpg_64x64.jpg"></a>
+		<a class="bottom-img-link"><img></a>
+		<a href="http://jqzy.zxxk.com/" title="" class="bottom-img-link" target="_blank"><img src="https://dss1.bdstatic.com/6OF1bjeh1BF3odCf/it/u=2655981174,298047890&fm=74&app=80&f=JPEG&size=f121,121?sec=1880279984&t=01b453637b867a31bd1b8e4031c1967e"></a>
+      </div>
+      <!--感谢Hitokoto的用爱发电！！！-->
+      <!--这里是一言-->
+      <div id="hitokoto-box">
+        <span id="hitokoto" title="一言 - Hitokoto提供API支持">
+          Loading... - 一言
+        </span>
+        <script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
+      </div>
     </div>
     <div style="display:none;">
       哎呀，你发现了彩蛋！

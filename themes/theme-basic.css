@@ -1,9 +1,13 @@
 
-/* theme-basic is to make the unchangable attributes */
-/* Please put this AT LATEST IN THE ORDER when linking.*/
+/* theme-basic.css is to make the unchangable attributes among all themes. */
+/* Please put this IN FRONT OF OTHER THEMES' FILES when linking.*/
 
 #bg{
   background-color: #6CF;
+}
+
+#contain, #bg{
+  animation: page-HelloWorld 0.42s;
 }
 
 #schbox{
@@ -23,7 +27,7 @@
 
 #e-left, #e-middle, #e-right{
   transition: color 0.14s;
- cursor: pointer;
+  cursor: pointer;
 }
 
 #sch-go{
@@ -52,6 +56,32 @@
 
 #clean:active{
   opacity: 0.64;
+}
+
+#link, #hitokoto{
+  opacity: 0.64;
+  transition: opacity 0.18s;
+}
+
+#link>a{
+  opacity: 0.8;
+  transition: opacity 0.18s;
+}
+
+#hitokoto{
+  transition: color 0.2s, background-color 0.2s;
+}
+
+#link:hover{
+  opacity: 0.9;
+}
+
+#link>a:hover{
+  opacity: 1;
+}
+
+#hitokoto:hover{
+  opacity: 0.85;
 }
 
 .bg, .bg_{
@@ -92,5 +122,11 @@
   }
 }
 
-@keyframes sch-HelloWorld {
+@keyframes page-HelloWorld {
+  from{
+    opacity: 0%;
+  }
+  to{
+    opacity: 100%;
+  }
 }

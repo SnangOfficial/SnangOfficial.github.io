@@ -22,7 +22,11 @@
 }
 
 #e-left:active, #e-right:active{
-	color: #E7E7E7;
+  color: #E7E7E7;
+}
+
+#hitokoto{
+  color: white;
 }
 
 .theme-selected-on{

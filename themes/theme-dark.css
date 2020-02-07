@@ -9,7 +9,7 @@
 }
 
 #e-middle{
-  color: #000;
+  color: black;
   transition: text-shadow 0.14s;
 }
 
@@ -19,6 +19,10 @@
 
 #e-middle:active{
   text-shadow: grey 2px 4px 5px;
+}
+
+#hitokoto{
+  color: black;
 }
 
 .theme-selected-on{
