@@ -10,15 +10,19 @@
 }
 
 #e-middle, #hitokoto{
-  color: #E90;
+  color: #EC0;
 }
 
-#e-middle:hover{
-  color: orange;
+#e-middle:hover, #hitokoto:hover{
+  color: yellow;
 }
 
 #e-middle:active{
-  color: #D83;
+  color: #D90;
+}
+
+#hitokoto{
+  font-weight: 600;
 }
 
 .theme-selected-on{
